@@ -26,8 +26,8 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// make a variable call 'name' and set the value to 'Dane'
+// if 'name' is exactly equal to 'Mary' consol.log "Hi, Mary!", otherwise console.log "How do you do?"
 // 
 //
 
@@ -45,9 +45,9 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// make variable 'secret' an make variable 'code' and set the vale of 'code' to '123'
+// if 'code' is exactly '123', set secret to the text string "super" and update 'code' to be 2 times its value.
+// another if statements asks if 'code' is now greater than '250'. if so, set 'secret' to 'duper' and console.log the variable 'secret'
 //
 
 //CODE
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// set three variables (isStudent to true, age to 34 and zip to 55407)
+// if isStudent is exactly true and the zip is greater than 80000, then create a consol.log that states "You're a student on the West Coast"
+// other wise see if isStudent is exactly false or they're under the age of 30. If either are correct statements, console.log a question of "waht are your hobbies?"
+// if neither of the first statements validate to the code, create a console.log and ask "How about the weather?"
 
 //CODE
 /*
@@ -136,6 +136,7 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  //colorTwo also needs to be set to 'purple'
 }
 */
 
@@ -150,6 +151,7 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+//this is a compoud condition using "or" instead of "and". || should be replaced with &&
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -165,5 +167,7 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
+//this is comparing minAge to age. The statment should compare age to minAge (ex. age >= minAge). 
+//the consol.log statemetns should be reversed.
 */
 
